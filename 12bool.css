@@ -25,6 +25,11 @@
 /* desktop version */
 @media screen and (min-width: 992px){
 
+#wrapper{
+ width: 80%;
+ margin: 0 auto;
+}
+
  .col-lg-1{
   width: calc((100% / 12) * 1);
  }
@@ -101,9 +106,15 @@
 
 }
 
+
 /* tablet version */
 @media screen and (min-width: 768px)
 and (max-width: 991px){
+
+#wrapper{
+ width: 90%;
+ margin: 0 auto;
+}
 
  .col-md-1{
   width: calc((100% / 12) * 1);
@@ -184,6 +195,9 @@ and (max-width: 991px){
 /* smartphone version */
 @media screen and (max-width: 767px){
 
+ #wrapper{
+  width: 100%;
+ }
  .col-xs-1{
   width: calc((100% / 12) * 1);
  }
