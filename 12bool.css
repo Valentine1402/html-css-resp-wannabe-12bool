@@ -351,3 +351,40 @@ and (max-width: 991px){
 .col-offset-12{
  margin-left: calc((100% / 12) * 12);
 }
+
+@media screen and (max-width: 767px){
+
+ .row{
+  width: 100%;
+  margin-top: 0;
+  padding: 4px;
+ }
+ #lezioni .row > .left, #lezioni .row > .right{
+  width: 80%;
+  float: none;
+  margin-left: 25px;
+ }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+  float: none;
+  width: 80%;
+  margin-top: 5;
+  padding: 4px;
+  margin-left: 15px;
+ }
+
+ /* color  */
+ .row{
+  background-color: pink;
+ }
+
+ h1 , h3{
+  background-color: #48D1CC;
+ }
+
+}
